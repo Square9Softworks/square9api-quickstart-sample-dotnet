@@ -20,7 +20,7 @@ namespace Square9.QuickstartSample
         /// When processing volumes of work in the context of a service worker, it is considered best practice to
         /// reuse a longlived token, rather than to request and dispose of a license token for each request. In
         /// simple terms this can reduce each transaction from 3 calls to one, and greatly reduce load on the SQL
-        /// database by preventing additional queries necessary by the create license process.
+        /// database by preventing additional queries necessitated by the create license process.
         /// 
         /// Example API Consumer Service Workflow:
         /// 1. Ensure we have a token:
